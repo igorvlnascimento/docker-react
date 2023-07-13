@@ -21,5 +21,6 @@ deploy:
   bucket-path: "financas-online"
   on:
     branch: master
+    node_js: '16'
   access_key_id: $AWS_ACCESS_KEY
   secret_access_key: "$AWS_SECRET_KEY"
